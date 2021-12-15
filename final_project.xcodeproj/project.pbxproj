@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3252D7F12769FD2C006939C1 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252D7F02769FD2C006939C1 /* ReminderTableViewController.swift */; };
+		3252D7F62769FF7E006939C1 /* MedicineReminderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3252D7F42769FF7E006939C1 /* MedicineReminderApp.xcdatamodeld */; };
+		3252D7F8276A001B006939C1 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252D7F7276A001B006939C1 /* CoreDataService.swift */; };
+		3252D7FA276A030A006939C1 /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252D7F9276A030A006939C1 /* AddReminderViewController.swift */; };
 		32692A8B2765C72D00739CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692A8A2765C72D00739CE7 /* AppDelegate.swift */; };
 		32692A8D2765C72D00739CE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692A8C2765C72D00739CE7 /* SceneDelegate.swift */; };
 		32692A8F2765C72D00739CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692A8E2765C72D00739CE7 /* ViewController.swift */; };
@@ -16,6 +20,9 @@
 		32692AA22765C73500739CE7 /* final_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692AA12765C73500739CE7 /* final_projectTests.swift */; };
 		32692AAC2765C73500739CE7 /* final_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692AAB2765C73500739CE7 /* final_projectUITests.swift */; };
 		32692AAE2765C73500739CE7 /* final_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692AAD2765C73500739CE7 /* final_projectUITestsLaunchTests.swift */; };
+		32692ABD2766C71000739CE7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692ABC2766C71000739CE7 /* Model.swift */; };
+		32692ABF2766C71000739CE7 /* ServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692ABE2766C71000739CE7 /* ServiceController.swift */; };
+		32692AC22766D78E00739CE7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32692AC12766D78E00739CE7 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3252D7F02769FD2C006939C1 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		3252D7F52769FF7E006939C1 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		3252D7F7276A001B006939C1 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		3252D7F9276A030A006939C1 /* AddReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
 		32692A872765C72D00739CE7 /* final_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32692A8A2765C72D00739CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32692A8C2765C72D00739CE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		32692AA72765C73500739CE7 /* final_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = final_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32692AAB2765C73500739CE7 /* final_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projectUITests.swift; sourceTree = "<group>"; };
 		32692AAD2765C73500739CE7 /* final_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32692ABC2766C71000739CE7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		32692ABE2766C71000739CE7 /* ServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceController.swift; sourceTree = "<group>"; };
+		32692AC12766D78E00739CE7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,17 @@
 		32692A892765C72D00739CE7 /* final_project */ = {
 			isa = PBXGroup;
 			children = (
+				32692AC02766D75A00739CE7 /* View */,
+				32692ABB2766C71000739CE7 /* Controllers */,
+				32692ABA2766C70900739CE7 /* Model */,
 				32692A8A2765C72D00739CE7 /* AppDelegate.swift */,
 				32692A8C2765C72D00739CE7 /* SceneDelegate.swift */,
-				32692A8E2765C72D00739CE7 /* ViewController.swift */,
 				32692A902765C72D00739CE7 /* Main.storyboard */,
 				32692A932765C73400739CE7 /* Assets.xcassets */,
 				32692A952765C73400739CE7 /* LaunchScreen.storyboard */,
 				32692A982765C73400739CE7 /* Info.plist */,
+				3252D7F42769FF7E006939C1 /* MedicineReminderApp.xcdatamodeld */,
+				3252D7F7276A001B006939C1 /* CoreDataService.swift */,
 			);
 			path = final_project;
 			sourceTree = "<group>";
@@ -125,6 +143,33 @@
 				32692AAD2765C73500739CE7 /* final_projectUITestsLaunchTests.swift */,
 			);
 			path = final_projectUITests;
+			sourceTree = "<group>";
+		};
+		32692ABA2766C70900739CE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32692ABC2766C71000739CE7 /* Model.swift */,
+				32692ABE2766C71000739CE7 /* ServiceController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32692ABB2766C71000739CE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3252D7F9276A030A006939C1 /* AddReminderViewController.swift */,
+				3252D7F02769FD2C006939C1 /* ReminderTableViewController.swift */,
+				32692A8E2765C72D00739CE7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32692AC02766D75A00739CE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32692AC12766D78E00739CE7 /* CustomCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3252D7FA276A030A006939C1 /* AddReminderViewController.swift in Sources */,
 				32692A8F2765C72D00739CE7 /* ViewController.swift in Sources */,
+				3252D7F62769FF7E006939C1 /* MedicineReminderApp.xcdatamodeld in Sources */,
+				3252D7F8276A001B006939C1 /* CoreDataService.swift in Sources */,
 				32692A8B2765C72D00739CE7 /* AppDelegate.swift in Sources */,
+				3252D7F12769FD2C006939C1 /* ReminderTableViewController.swift in Sources */,
 				32692A8D2765C72D00739CE7 /* SceneDelegate.swift in Sources */,
+				32692ABD2766C71000739CE7 /* Model.swift in Sources */,
+				32692AC22766D78E00739CE7 /* CustomCell.swift in Sources */,
+				32692ABF2766C71000739CE7 /* ServiceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +670,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3252D7F42769FF7E006939C1 /* MedicineReminderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3252D7F52769FF7E006939C1 /* ReminderModel.xcdatamodel */,
+			);
+			currentVersion = 3252D7F52769FF7E006939C1 /* ReminderModel.xcdatamodel */;
+			path = MedicineReminderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 32692A7F2765C72D00739CE7 /* Project object */;
 }
